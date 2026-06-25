@@ -16,23 +16,19 @@
 
 ## 安装
 
-**方式一：直接 URL 安装（Hermes 等）**
-
-```bash
-hermes skills install https://raw.githubusercontent.com/peyoba/xinxue-skill/main/SKILL.md
-```
-
-**方式二：手动克隆**
+**方式一：克隆仓库**
 
 ```bash
 git clone https://github.com/peyoba/xinxue-skill.git
 ```
 
-将克隆下来的文件放到你的智能体技能目录中（如 `~/.hermes/skills/wang-yangming/`）。
+将克隆下来的文件放到你的智能体技能加载目录中即可。
 
-**方式三：手动下载**
+**方式二：手动下载**
 
-直接下载 `SKILL.md` 和 `references/` 目录，放到你的智能体技能加载路径下即可。
+直接下载 `SKILL.md` 和 `references/` 目录，放到你的智能体技能加载路径下。
+
+> 不同智能体的技能目录位置请参考各自文档。
 
 ## 文件说明
 
