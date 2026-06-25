@@ -16,19 +16,21 @@
 
 ## 安装
 
-**方式一：克隆仓库**
+**一键安装（推荐，自动检测智能体）：**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/peyoba/xinxue-skill/main/install.sh | bash
+```
+
+支持自动检测：Hermes、Claude Code、Codex、OpenClaw、腾讯 WorkBuddy。脚本会将 Skill 复制到对应智能体的技能目录中。
+
+**手动安装：**
 
 ```bash
 git clone https://github.com/peyoba/xinxue-skill.git
 ```
 
-将克隆下来的文件放到你的智能体技能加载目录中即可。
-
-**方式二：手动下载**
-
-直接下载 `SKILL.md` 和 `references/` 目录，放到你的智能体技能加载路径下。
-
-> 不同智能体的技能目录位置请参考各自文档。
+将下载的文件放到你的智能体技能加载目录中即可。
 
 ## 文件说明
 
