@@ -1,6 +1,6 @@
 # 王阳明心学陪练 Skill
 
-基于王阳明心学的 AI 修心陪练技能，适用于任何支持 SKILL.md 格式的智能体（Hermes、Claude、ChatGPT、Cursor 等）。
+基于王阳明心学的 AI 修心陪练技能，适用于任何支持 SKILL.md 格式的智能体（Hermes、OpenClaw、腾讯 WorkBuddy、Claude、Cursor 等）。
 
 ## 功能
 
