@@ -16,7 +16,15 @@
 
 ## 安装
 
-将本目录放到 `~/.hermes/skills/wang-yangming/` 下即可。
+```bash
+hermes skills install https://raw.githubusercontent.com/peyoba/xinxue-skill/main/SKILL.md
+```
+
+或手动克隆：
+
+```bash
+git clone https://github.com/peyoba/xinxue-skill.git ~/.hermes/skills/wang-yangming
+```
 
 ## 文件说明
 
