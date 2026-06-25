@@ -16,15 +16,15 @@
 
 ## 安装
 
-**一键安装（推荐，自动检测智能体）：**
+**发送以下指令给你的智能体即可自动安装：**
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/peyoba/xinxue-skill/main/install.sh | bash
+```
+请从 GitHub 仓库 https://github.com/peyoba/xinxue-skill 下载全部文件，放到你的技能目录中，然后加载名为 wang-yangming 的技能。
 ```
 
-支持自动检测：Hermes、Claude Code、Codex、OpenClaw、腾讯 WorkBuddy。脚本会将 Skill 复制到对应智能体的技能目录中。
+智能体收到后会自动克隆仓库、放置到正确的技能目录并加载。支持 Hermes、Claude Code、Codex、OpenClaw、腾讯 WorkBuddy 等所有具备文件操作能力的智能体。
 
-**手动安装：**
+**或手动安装：**
 
 ```bash
 git clone https://github.com/peyoba/xinxue-skill.git
